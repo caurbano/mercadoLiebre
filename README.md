@@ -1,3 +1,3 @@
-#"Mercado Liebre" | Proyecto individual
+# "Mercado Liebre" | Proyecto individual
 
-Integración de contenidos HTML & CSS - Digital House
+*Integración de contenidos HTML & CSS - Digital House*
