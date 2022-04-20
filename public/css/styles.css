@@ -467,21 +467,12 @@ main h2 {
     .art:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
+
     
     /* FOOTER */
     .footer {
         flex-direction: row;
     }
-    /* .footer-info {
-        background-color: #ebebeb;
-        display: block;
-        height: 100px;
-        margin-top: -32.5px;
-        position: absolute;
-        top: 50%;
-        width: 1px;
-    } */
-
   
     .footer-info {
         /* position: relative; */
