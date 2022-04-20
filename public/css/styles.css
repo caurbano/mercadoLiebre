@@ -1,0 +1,505 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+/* HEADER */
+
+header {
+    background-color: #EAC926;
+    color: rgb(32, 30, 30);
+}
+
+.up-section {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.up-section__logo {
+    padding-right: 10px;
+    width: 50%;
+}
+
+.up-section__logo img {
+    width: 100%;
+}
+
+.up-section__search {
+    display: flex;
+    width: 50%;
+}
+
+#input {
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    height: 30px;
+    width: 100%;
+}
+
+.up-section__search button {
+    align-items: center;
+    background-color: white;
+    border: 0;
+    border-radius: 5px;
+    color: #666;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 30px;
+    margin-left: -6%;
+}
+
+.up-section__search i {
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.up-section__txt {
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+#hand {
+    font-size: 15px;
+    margin-right: 1%;
+}
+
+.down-section__nav {
+    display: none;
+}
+
+.burger-menu {
+    height: 50px;
+    text-align: center;
+}
+
+.burger-menu i {
+    background-color: #1259c3;
+    border-radius: 20%;
+    color: #ffff;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* MAIN */
+main {
+    background-color: #ebebeb;
+    width: 100%;
+}
+
+.main-section,
+.offers-section {
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 25px;
+    width: 90%;
+}
+
+main h2 {
+    color: #666;
+    font-size: 24px;
+    padding: 30px 15px;
+    margin-top: 0px;
+}
+
+.articles-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.art {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.art img {
+    width: 100%;
+}
+
+.art__box {
+    align-items: center;
+    background-color: white;
+    border-top: solid #ebebeb 1px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 15px;
+}
+
+.art__box i {
+    background-color: #FFF;
+    border: solid #39b54a 1px;
+    border-radius: 50%;
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    position: relative;
+    left: 85%;
+    top: -35px;
+}
+
+.price {
+    font-size: 18px;  
+    flex-grow: 0.3;
+}
+
+.disc {
+    font-size: 16px;
+    color: #39b54a;
+    flex-grow: 0.7;
+}
+
+.descr {
+    color: #666;
+    display: none;
+    font-size: 16px;
+    font-weight: lighter;
+    padding-top: 30px;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: white;
+    color: #666;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer-info {
+    padding: 40px 5px;
+    text-align: center;
+    width: 90%;
+}
+
+.footer-info h2 {
+    font-size: 24px;
+}
+
+.footer-info i {
+    color: #1259c3;
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+.footer-copy {
+    color: #666;
+    padding: 20px;
+    width: 90%;
+}
+
+
+/* OTRAS SECCIONES DE MERCADOLIEBRE */
+
+/* LOGIN */
+.login-section {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 80%;  
+}
+
+.login-section h2 {
+    text-align: center;
+}
+
+.login {
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.login input {
+    border: solid 1px lightgray;
+    border-radius: 8px;
+    padding: 5px;
+    width: 100%;
+}
+
+.login label {
+    display: block;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+
+.login-in {
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.login-in:hover {
+    background-color: #0022AA;
+    color: white;
+    font-weight: bold;
+}
+
+.login p {
+    color: #1259c3;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.login a {
+    text-decoration: none;
+}
+
+/* REGISTER */
+.register-section {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    padding-bottom: 40px;
+    width: 80%;
+}
+
+.register-section h2 {
+    text-align: center;
+}
+
+.register {
+    background-color: white;
+    border: 0;
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.register input {
+    border: solid 1px lightgray;
+    border-radius: 8px;
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+
+.register label {
+    display: block;
+    font-size: medium;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    padding: 5px 0px;
+}
+
+#avatar:hover {
+    cursor: pointer;
+}
+
+.register-send,
+.register-reset {
+    border: solid 1px lightgray;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.register-send:hover,
+.register-reset:hover {
+    background-color: #0022AA;
+    color: white;
+    font-weight: bold;
+}
+
+/* RESPONSIVE DESGING */
+
+/* TABLETS */
+@media (min-width: 361px) {
+    /* HEADER */
+    .down-section__nav{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+    
+    .down-section__nav ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 14px;
+        padding: 1% 2%;
+    }
+
+    .down-section__nav ul li {
+        list-style: none;
+    }
+    
+    .down-section__nav ul li a {
+        color: rgb(32, 30, 30);
+        text-decoration: none;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    /* MAIN */
+    .articles-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+    .art {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 43%;
+    }
+
+    .descr {
+        display: block;
+    }
+}
+
+/* DESKTOP */
+@media (min-width: 769px) {
+    /* HEADER */
+    .up-section__logo{
+        width: 33%;
+    }
+
+    .up-section__search{
+        width: 33%;
+    }
+
+    .up-section__txt{
+        text-align: left;
+        width: 33%;
+    }
+
+    .down-section{
+        padding: 20px 5px 10px;
+    }
+ 
+    .down-section__nav{
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+    }
+
+    .down-section__nav ul{
+        display: flex;
+        justify-content: space-around;
+        font-size: 14px;
+        padding: 1% 3%;
+        width: 40%;
+    }
+ 
+    .down-section__nav ul li {
+        list-style: none;
+    }
+    
+    .down-section__nav ul li a {
+        color: rgb(32, 30, 30);
+        text-decoration: none;
+    }
+
+    .burger-menu{
+        display: none;
+    }
+
+    /* MAIN */
+    .articles-list {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .art {
+        width: 22%;
+        box-shadow: none;
+        transition: all 0.5s ease;
+    }
+    
+    .descr {
+        display: none;
+    }
+
+    .art:hover .descr {
+        display: block;
+    }
+
+    .art:hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    
+    /* FOOTER */
+    .footer {
+        flex-direction: row;
+    }
+    /* .footer-info {
+        background-color: #ebebeb;
+        display: block;
+        height: 100px;
+        margin-top: -32.5px;
+        position: absolute;
+        top: 50%;
+        width: 1px;
+    } */
+
+  
+    .footer-info {
+        /* position: relative; */
+        width: 30%;
+      }
+  
+    .footer-info h2{
+        margin-bottom: 30px;    
+    }
+    .footer-info p{
+        font-size: 14px;   
+    }
+    
+    .footer-info i {
+        transition: all 0.3s ease;
+    }
+    .footer-info:hover i {
+        color: #6457d8;
+        text-shadow: -5px -5px 7px rgb(202, 193, 228);
+    }
+} 

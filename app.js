@@ -7,7 +7,7 @@ const publicPath = path.resolve(__dirname, './public');
 app.use(express.static(publicPath));
 //decirle a express que queremos tener la carpeta public como recurso de arch estaticos para poder consumirlos
 
-app.listen(4200, () => {
+app.listen(3000, () => {
     console.log('Servidor corriendo en el puerto 3000');
 });
 
